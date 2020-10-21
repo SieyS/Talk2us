@@ -17,13 +17,11 @@ if(!isset($_SESSION['user_id']))
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Talk 2 Us</title>  
-		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/mervick/emojioneArea/master/dist/emojioneArea.min.css">
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  		<script src="https://cdn.rawgit.com/mervick/emojioneArea/master/dist/emojioneArea.min.js"></script>
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+		<link rel="stylesheet" href="jquery-ui.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+		<script src="jquery-1.12.4.js"></script>
+  		<script src="jquery-ui.js"></script>
+  		<script src="jquery.form.js"></script>
     </head>  
     <body>  
         <div class="container">
